@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto introductorio para arende la estructura y las etiquetas principales de HTML.">
+    <meta name="author" content="MDLM">
+
+
+    <!-- Texto que aparece en la pestaña del navegador-->
+    <title>Mi prmer proyecto HTML</title>
+</head>
+<body id="inicio">
+     
+        <!--Encabezado de la página-->
+        <header>
+            <h1>Mi primer proyecto HTML</h1>
+            <p>Un sitio para practicar las estructurasy etiquetas principales de HTML 5.</p>
+
+        <!--Menú con enlaces hacia secciones de esta misma página-->
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#acerca-de">Hacerca de mí</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Horario</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+
+
+         <!--Contenido principal e inicio de la página-->
+        <main>
+            <section id="acerca-de">
+                <figure>
+                    <img src="https://www.tudn.com/_next/image?url=https%3A%2F%2Fst1.uvnimg.com%2F4b%2Fbd%2Fbef6e2c543288057c3a6560da5dc%2Fgettyimages-962792726.jpg&w=1280&q=75" alt="AFFL">
+                    <FIGcaption>CR7 5 champions</FIGcaption>
+                </figure>
+                <p>Mi nombre es <strong>Daniel</strong> y actualmente estoy estudiando el curso de programación web con <abbr title="HyperText Markup Lenguage">HTML</abbr></p>
+                <P>Me interesa especialmente la <em>creación de contenido y experienias digitales</em> y quiero aprender a desarrollar sitios accesibles y bien estructurados</P>
+            </section>
+            <hr>
+            <section id="Habilidades">
+                <h2>Habilidades e intereses</h2>
+
+                <h3>mis intereses</h3>
+                <ul>
+                    <li>Programación</li>
+                    <li>Fútbol</li>
+                    <li>Videojegos</li>
+                    <li>UX/UI</li>
+                </ul>
+
+                <h3>Mis metas de aprendizaje</h3>
+                <ol>
+                    <li>Comprender la estructura de HTML</li>
+                    <li>Aprender a modificar la apariencia con CS5</li>
+                    <li>Aprender a programar en PHP</li>
+                    <li>Conectar mi página con una base de datos</li>
+                </ol>
+            </section>
+            <hr>
+            <section id="proyectos">
+                <h2>Mis Proyectos</h2>
+                <article>
+                    <h3>Página personal</h3>
+                    <p>En este proyevto presentaré información sobre mis intereses, Habilidades y objetivos profesionales</p>
+                    <a href="https://hithub.com" target="_blank">Visitar GitHub</a>
+                </article>
+            </section>
+            <hr>
+            <section>
+            <article>
+                <h3>Sitio de mi tema favorito</h3>
+                <p>Crearé un sitio informativo sobre películos, videojuegos, deportes y temas de mi elección.</p>
+            </article>
+            </section>
+            <hr>
+            <section id="contacto">
+                <h2>Horario</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+
+            </p>
+            </section>
+            <hr>
+            <section id="contacto">
+                <form action="">
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </form>
+            </section>
+
+        </main>
+        <footer>
+            <hr>
+            <address>
+                Elaborado por MDLM <br>
+                correo: <a href="mailtoMDLM@gmail.com">MDLM@gmail.com</a>
+            </address>
+        </footer>
+
+
+
+    
+</body>
+</html>
