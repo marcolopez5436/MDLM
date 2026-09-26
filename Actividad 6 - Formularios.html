@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Universitario</title>
+</head>
+<body>
+    <h1>Formulario de incripción al evento universitario</h1>
+    <form action="" method="post">
+        <label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" maxlength="100" minlength="18" placeholder="Escribe tu nombre completo" required>
+    <br>
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" name="correo" id="correo">
+    <br>
+    <label for="edad">Edad</label>
+    <input type="number" name="edad" id="edad" style="width: 30px;"> 
+    <br>
+    <label for="fecha_n">Fecha de nacimiento:</label>
+    <input type="date" name="fecha_n" id="fecha_n">
+    <br>
+    <label for="carrera">Carrera:</label>
+    <select name="carrera" id="carrera">
+        <option value="LTIN">Licenciatura en Tecnologías de la información</option>     
+        <option value="LAD">Licenciatura en Administración</option> 
+        <option value="LECO">Licenciatura en Economía</option> 
+        <option value="LRH">Licenciatura en Recursos Humanos</option> 
+        <option value="LTUR">Licenciatura en Turismo</option> 
+    </select>
+    <br>
+    <label for="turno">Turno:</label><br>
+        <input type="radio" name="turno" id="turno" value="Matutino">Matutino<br>
+        <input type="radio" name="turno" id="turno" value="Vespertino">Vespertino<br>
+    <label for="aceptacion">Aceptas los términos y condiciones?</label>
+    <input type="checkbox" name="aceptacion" id="aceptacion">
+    </label>
+    <br>
+    <input type="submit" value="Registrar">
+    <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>
