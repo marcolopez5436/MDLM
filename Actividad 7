@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7 fans</title>
+</head>
+<body>
+
+    <h1 style="color: red; font-size: 40px;">
+        <b>Página de fans de cr7</b>
+    </h1>
+
+    <p style="color: yellow;">
+        Bienvenidos a la página de fans de el bicho, siuuuuu
+    </p>
+    |<img src="https://i.pinimg.com/originals/3f/d3/ea/3fd3ea083d819b3176c39dd17cb1e0e4.jpg" width="300" alt="CR7">
+</body>
+</html>
