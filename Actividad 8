@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test page</title>
+    <style>
+        body {
+            background-color: rgb(185, 138, 138);
+        }
+        h1 {
+            color: blue;
+        }
+        p {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola</h1>
+    <p>Bienvenido a mi página web</p>
+    <p>Esta es una página simple con algunos elementos básicos.</p>
+</body>
+</html>
