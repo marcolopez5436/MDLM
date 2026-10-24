@@ -1,0 +1,36 @@
+h1{
+    color:black;
+    font-size:30px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(18, 70px);
+    gap: 4px;
+    justify-content: center;
+}
+.elemento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.elemento strong {
+    font-size: 20px;
+}
+
+.elemento:hover {
+    background-color: lightblue;
+    color: white;
+    transform: scale(1.08);
+}
