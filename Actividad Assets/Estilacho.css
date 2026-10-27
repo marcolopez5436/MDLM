@@ -1,0 +1,115 @@
+*{
+     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top { height: 40px; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; } 
+.top h1 { font-size: 26px; 
+}
+.buscar { display: flex; 
+    align-items: center; 
+    gap: 10px; 
+} 
+.buscar input { 
+    width: 100px; 
+    height: 16px; }
+.subtop { height: 28px; 
+    background-color:coral; ;
+    display: flex; <!-- Hace que los elementos hijos se dispongan en una fila -->
+    align-items: center; 
+    justify-content: space-around; 
+}
+.subtop a { color: white; 
+    text-decoration: none; 
+    font-size: 12px; 
+}
+.container{
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+    position: relative;
+    margin: auto 0;
+}
+.izquierda{
+    margin: 5px;
+    height: 40%;
+    width: 30%;
+    background-color: rgb(190, 179, 179);
+    color: black;
+    left: 0;
+    float: left;
+}
+.publicidad { 
+    background-color: #dda15c; 
+    border: 1px dashed #fc0000; 
+    padding: 7px; }
+    .publicidad h3 { 
+        color: #f0a33c; 
+        font-size: 14px; 
+        margin-bottom: 6px; } 
+    .publicidad p { 
+        margin-bottom: 10px; 
+    }
+.medio{
+    margin: 5px;
+    height: 30%;
+    width: 30%;
+    background-color: transparent;
+    color: black;
+    left: 0;
+    float: left;
+}
+.medio { min-width: 0; } 
+.noticia { 
+    margin-bottom: 12px; 
+} 
+.noticia h2 { font-size: 17px; 
+    color: #f0a323; 
+    line-height: 1.15; 
+    margin-bottom: 10px; } 
+.contenido-noticia { 
+    display: grid; 
+    grid-template-columns: 32% minmax(0, 1fr);} 
+.contenido-noticia img { 
+    width: 100%; 
+    height: 142px; 
+    object-fit: cover; 
+} 
+.contenido-noticia p { 
+    line-height: 1.2; 
+    margin-bottom: 9px; } 
+.derecha{ 
+    margin: 5px; 
+    height: 30%; 
+    width: 30%; 
+    background-color: transparent; 
+    color: black; 
+    left: 0; 
+    float: left; 
+}
+.bloque-derecho { 
+    margin-bottom: 8px; 
+} 
+.bloque-derecho h3 { 
+    background-color: #20b6c4; 
+    color: white; 
+    font-size: 12px; 
+    padding: 5px; 
+    margin-bottom: 7px; 
+} 
+.bloque-derecho p { 
+    line-height: 1.2; 
+    margin-bottom: 9px; 
+}
+.footer { 
+    min-height: 116px; 
+    margin-top: 10px; 
+    background-color: #f8f8f8; 
+    padding: 15px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; }
